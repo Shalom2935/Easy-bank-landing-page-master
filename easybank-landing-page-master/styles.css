@@ -1,0 +1,551 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    font-weight: 500;
+    font-family: Public Sans, Arial, Helvetica, sans-serif;
+    height: 100vh;
+}
+.menu-btn{
+    position: relative;
+    left:40vw;
+    top: 2px;
+    display: none;
+    cursor: pointer;
+}
+
+.logo{
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 0.15;
+    
+}
+header{
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    background-color: white;
+    column-gap: 2rem;
+    height: 80px;
+    width: 100%;
+    
+    z-index: 3;
+    
+}
+header a:hover{
+    opacity: 70%;
+}
+.left a:hover{
+    opacity: 70%;
+}
+button a:hover{
+    opacity: 70%;
+} 
+nav {
+    display: flex;
+    align-items: center;
+    column-gap: 300px;
+}
+
+.navlinks ul{
+    width: 100%;
+    display: flex;
+    column-gap: 29px;
+}
+nav > span a{
+    color: black;
+    text-decoration: none;
+}
+nav > span a:hover{
+    border-bottom: solid 5px hsl(136, 65%, 51%) ;
+    padding-bottom: 26.5px;
+    opacity: inherit;
+}
+ button{
+    background: linear-gradient(to bottom left,hsl(192, 70%, 51%), hsl(136, 65%, 51%));
+    color: white;
+    border: none;
+    border-radius: 30px;
+    width: 162px;
+    height: 43px;
+    font-weight: bold;
+    font-size: 14px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+.container{
+    position: relative;
+    background-color: hsl(0, 0%, 98%);
+    height: 105vh;
+    width: 100%;
+
+}
+.image{
+    position: absolute;
+    right: -18rem;
+    top: -9rem;
+    z-index: 2;
+    width: 80%;
+}
+.image1{
+    width: 100%;
+}
+.image2{
+    position: absolute;
+    top: 7rem;
+    left: 11.2rem;
+    width: 68%;
+    z-index: 2;
+    
+}
+.bg-intro-desktop{
+    max-width: 100%;
+}
+.image-mockups{
+    height: 100%;
+    width: 100%;
+}
+.left{
+    width:40%;
+    height: 100px;
+    padding-top: 240px;
+    padding-left: 8%;
+}
+.left h1{
+    width: 80%;
+    font-weight: 400;
+    font-size: 55px;
+}
+.left p{
+    font-size: 16px;
+    line-height: 25px;
+    width: 80%;
+    text-orientation: sideways-right;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: rgb(110, 111, 112);
+}
+.content{
+    position: relative;
+    background-color: hsl(220, 16%, 96%);
+    padding-top: 80px;
+    padding-left: 100px;
+    z-index: 1;
+    
+}
+.content h1{
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.content p{
+    line-height: 20px;
+    max-width: 50%;
+    text-orientation: sideways-right;
+    color: rgb(110, 111, 112);
+}
+.intro{
+    margin-bottom: 50px;
+}
+.block{
+    max-width: 100%;
+    display: flex;
+}
+.block h1{
+    font-size: 20px;
+}
+.text{
+    margin-top: 40px;
+    height: 40px;
+    margin-bottom: 200px;
+}
+.text p{
+    max-height: 150px;
+    max-width: 80%;
+    font-size: 14px ;
+    text-orientation: sideways;
+}
+.Articles{
+    padding-top: 50px;
+    padding-bottom:50px ;
+    background-color: hsl(0, 0%, 98%);
+}
+.Articles h1{
+    font-size: 40px;
+    margin-left: 100px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.description{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    gap: 15px;
+    padding-right: 100px;
+}
+
+.img{
+    height: 14rem;
+    margin-bottom: 30px;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.explain h2{
+    margin-top: auto;
+    margin-left: 30px;
+    font-size: 11px;
+    color: rgb(110, 111, 112);
+    font-weight: lighter ;
+}
+.explain h1{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 30px;
+    max-width: 70%;
+    margin-bottom: 10px;
+}
+.explain p{
+    font-size: 13px;
+    line-height: 17px;
+    margin-left: 30px;
+    max-width: 75%;
+    color: rgb(110, 111, 112);
+    text-align: left;
+    max-height:50px ;
+}
+.currency, .restaurant, .plane, .confetti{
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+    max-width: 275px;
+    padding-bottom: 40px;
+    
+}
+footer{
+    background-color: hsl(233, 26%, 24%);
+    height: 200px;
+    max-width: 100%;
+    color: white;
+    padding: 0px 100px 0px 100px;
+}
+.end{
+    /* display: -webkit-flex; */
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width:100%;
+    height:100%;
+
+    
+}
+footer .logo{
+    margin-bottom:25px;
+}
+footer .social-network-logo{
+    display: flex;
+    column-gap: 10px;
+}
+footer svg path:hover{
+   fill: hsl(136, 65%, 51%);  
+}
+footer p:hover{
+    color:hsl(136, 65%, 51%);
+}
+.img-end{
+    display:flex;
+    flex-direction:column;
+    align-content:space-between;
+}
+
+.About-us, .Careers{
+    display:flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+footer .button{
+    display: flex;
+    flex-direction: column;
+    align-content:flex-end;
+}
+.button p:hover{
+    color: white;
+}
+footer button{
+    display:flex;
+    float:right;
+    justify-content:center;
+    align-items:center;
+    margin-bottom: 20px;
+}
+.bg-intro-mobile{
+    display: none;
+}
+@media (max-width: 800px) {
+   *{
+        max-width: 100vw;
+        padding: 0;
+    }
+    header{
+        position: fixed;
+        height: 50px;
+        max-width: 100vw;
+        z-index: 3;
+    }
+    .logo{
+        position: absolute;
+        top: 5px;
+        left: 20px;
+    }
+    nav > span a:hover{
+        border:none;
+        opacity: inherit;
+    }
+    nav{
+        position: fixed;
+        top: 50px;
+        width: 100vw;
+        height: 100vh;
+        transition: all 0.3s ease ;
+       
+    }
+    
+    .navlinks ul{
+        
+        display: flex;
+        flex-direction: column;
+        row-gap:20px;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .navlinks {
+        position: absolute;
+        z-index: 2;
+        background-color: white;
+        margin-bottom: 2000px;
+        width: 80%;
+        left: 10%;
+        padding: 25px 0;
+        border-radius: 5px;
+        transition: all 0.8s ease-in-out;
+    }
+    .show-navlinks{
+        margin-bottom: 630px;
+    }
+    .bg-nav{
+        background-color: rgba(0, 0, 0, 0.411);
+    }
+    
+    nav button{
+        display: none;
+    }
+    .menu-btn{
+        display: block;
+        width: 25px;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .menu-hamburger{
+        width:25px;
+        height: 2px;
+        background-color: black;
+        border-radius: 5px;
+        transition: all 0.5s ease-in-out;
+    }
+    .menu-hamburger::before, .menu-hamburger::after{
+        content: ' ';
+        position: absolute;
+        width:25px;
+        height: 2px;
+        background-color: black;
+        border-radius: 5px;
+        transition: all 0.5s ease-in-out;
+    }
+    .menu-hamburger::before{
+        transform: translateY(-7px);
+    }
+    .menu-hamburger::after{
+        transform: translateY(7px);
+    }
+    .menu-btn.close .menu-hamburger{
+        background-color: transparent;
+      
+    }
+    .menu-btn.close .menu-hamburger::before{
+        transform: rotate(45deg) translate(2px,-2px);
+    }
+    .menu-btn.close .menu-hamburger::after{
+        transform: rotate(-45deg) translate(2px,2px); 
+    }
+    
+    .bg-intro-desktop{
+        display: none;
+    }
+    .bg-intro-mobile{
+        display: block;
+    }
+    .container{
+     padding: 0;
+     display: flex;
+     flex-direction: column;
+     height: auto;
+
+    }
+    .left{
+        width: 100%;
+        padding-left:0 ;
+    }
+    .left h1{
+        font-size:35px;
+        text-align: center;
+        padding-top: 40%;
+        width: 85%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .left p{
+        text-align: center;
+        width: 90%;
+        margin: auto;
+        font-size: 15px;
+        margin-bottom: 40px;
+    }
+    .left a{
+       display: flex;
+       justify-content: center;
+    }
+    .image{
+        order: 1;
+        position: relative;
+        left: 0;
+        top: -21rem;
+        margin-bottom: 50px;
+      width: 100%;
+        
+    }
+    .image2{
+        min-width: 95%;
+        left: 2.5vw;
+        top: -3.5rem;
+    }
+
+
+    .content, .Articles{
+        padding: 0;
+    }
+    .content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 60px;
+        padding-top: 60px;
+        
+    }
+    .content .intro{
+        max-width: 90%;
+    }
+    .content .intro h1{
+        font-size: 35px;
+        text-align: center;
+    }
+    .intro p{
+       text-align: center;
+        font-size: 15px;
+        max-width: 100%;
+        margin: auto;
+    }
+    
+    .content .block{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    .block > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .block > div > .text h1{
+        font-size: 25px;
+        max-width: 100%;
+        text-align: center;
+    }
+    .block > div > .text p{
+        font-size: 15px;
+        max-width: 100%;
+        text-align: center;
+    }
+    .Articles > h1{
+        font-size: 35px;
+        margin: auto;
+    }
+    .Articles{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        row-gap: 60px;
+        padding-top: 60px;
+    }
+    .Articles > div > div {
+       max-width: 98%;
+    }
+    .description{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        margin-left: 0;
+        width: 100%;
+    }
+    
+    .description > div >.explain h1{
+        font-size: 16px;
+        width: 100%;
+    }
+    .description > div >.explain p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    footer {
+        height: auto;
+        padding: 30px;
+    }
+    footer .logo{
+        position: static;
+       
+    }
+    footer .end{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 15px;
+        
+    }
+    footer > div > div {
+        text-align: center;
+    }
+    footer a{
+        display: flex;
+        justify-content: center;
+    }
+}
