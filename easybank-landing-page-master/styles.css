@@ -334,7 +334,7 @@ footer button{
         position: absolute;
         z-index: 2;
         background-color: white;
-        margin-bottom: 2000px;
+        top: -500px;
         width: 80%;
         left: 10%;
         padding: 25px 0;
@@ -342,7 +342,7 @@ footer button{
         transition: all 0.8s ease-in-out;
     }
     .show-navlinks{
-        margin-bottom: 630px;
+        top: 30px;
     }
     .bg-nav{
         background-color: rgba(0, 0, 0, 0.411);
