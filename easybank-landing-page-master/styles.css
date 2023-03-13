@@ -230,7 +230,7 @@ main{
     display: flex;
     flex-direction: column;
     background-color:white;
-    max-width: 300px;
+    width: 300px;
     padding-bottom: 40px;
     
 }
