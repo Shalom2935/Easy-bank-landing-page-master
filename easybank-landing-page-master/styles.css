@@ -188,7 +188,6 @@ main{
 }
 .description{
     display: flex;
-    flex-wrap: wrap;
     margin-left: 100px;
     gap: 15px;
     padding-right: 100px;
@@ -231,7 +230,7 @@ main{
     display: flex;
     flex-direction: column;
     background-color:white;
-    max-width: 275px;
+    max-width: 300px;
     padding-bottom: 40px;
     
 }
